@@ -1,0 +1,95 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+/*
+BreakPoints por defecto
+    'sm' -> @media (min-width: 640px)
+    'md' -> @media (min-width: 768px) -> tablet
+    'lg' -> @media (min-width: 1024px) -> monitor
+    'xl' -> @media (min-width: 1280px) 
+    '2xl' -> @media (min-width: 1536px) 
+*/
+
+body {
+	font-family: 'Fjalla One', sans-serif;
+}
+
+/***********      TITULOS        ****************************/
+
+.grilla-titulo{
+    @apply text-center font-black text-naranja-oscuro pt-32 pb-8 lg:pt-40;
+}
+
+.subcatlista-titulo,.proxsubcat-titulo{
+    @apply grilla-titulo text-4xl lg:text-5xl;
+}
+
+.contacto-titulo{
+    @apply grilla-titulo text-3xl lg:text-4xl;
+}
+
+
+/***********     CARDS       ****************************/
+
+.card{
+    @apply border-2 border-gris-claro rounded-xl shadow-md;
+}
+
+.subcat-card{
+    @apply card bg-verde-bosque;
+}
+
+.producto-card,.contacto-card{
+    @apply  card bg-blanco;
+}
+
+
+/***********     CARDS TITULOS      ****************************/
+
+.card-titulo{
+    @apply text-3xl px-3 py-2;
+}
+
+.subcat-card-titulo,.contacto-card-titulo{
+    @apply card-titulo text-verde-limo;
+}
+
+.producto-card-titulo{
+    @apply card-titulo text-rojo;
+}
+
+.contacto-card-subtitulo{
+    @apply font-medium text-lg text-dorado px-3 pb-2;
+}
+
+/***********    TABLAS      ****************************/
+
+.producto-td{
+    @apply px-3 pt-1 pb-2;
+}
+
+.contacto-td{
+    @apply pl-3 pt-2;
+}
+
+
+/***********    DROPDOWN      ****************************/
+.dropdown{
+    @apply text-lg text-verde-bosque px-3 pb-2;
+}
+
+/***********    GRILLA      ****************************/
+.grilla{
+    @apply grid grid-cols-1 gap-4 md:grid-cols-2 md:gap-6 lg:grid-cols-3 lg:gap-8;
+}
+
+/***********    FOOTER      ****************************/
+
+.footer-subtitulo{
+    @apply font-semibold text-lg text-naranja-oscuro;
+}

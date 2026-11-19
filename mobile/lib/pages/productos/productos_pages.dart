@@ -1,0 +1,16 @@
+export 'package:florei_movil/pages/productos/detalle_categoria.dart';
+export 'package:florei_movil/pages/productos/detalle_marca.dart';
+export 'package:florei_movil/pages/productos/detalle_producto.dart';
+export 'package:florei_movil/pages/productos/detalle_subcategoria.dart';
+export 'package:florei_movil/pages/productos/lista_categorias.dart';
+export 'package:florei_movil/pages/productos/lista_grupos_venta.dart';
+export 'package:florei_movil/pages/productos/lista_marcas.dart';
+export 'package:florei_movil/pages/productos/lista_productos.dart';
+export 'package:florei_movil/pages/productos/lista_subcategorias.dart';
+export 'package:florei_movil/pages/productos/save_categoria_form.dart';
+export 'package:florei_movil/pages/productos/save_marca_form.dart';
+export 'package:florei_movil/pages/productos/save_producto_form.dart';
+export 'package:florei_movil/pages/productos/save_subcategoria_form.dart';
+export 'package:florei_movil/pages/productos/seleccionar_categorias.dart';
+export 'package:florei_movil/pages/productos/seleccionar_marcas.dart';
+export 'package:florei_movil/pages/productos/seleccionar_subcategorias.dart';

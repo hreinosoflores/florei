@@ -1,0 +1,79 @@
+[
+    {
+        "icon": "cube",
+        "label": "Productos",
+        "url": "lista_productos",
+        "subitems": [
+            {
+                "label": "Tipos",
+                "url": "lista_categorias"
+            },
+            {
+                "label": "Categorías",
+                "url": "lista_subcategorias"
+            },
+            {
+                "label": "Marcas",
+                "url": "lista_marcas"
+            },
+            {
+                "label": "Grupos de Venta",
+                "url": "lista_grupos_venta"
+            }
+        ]
+    },
+    {
+        "icon": "document-text-sharp",
+        "label": "Documentos",
+        "subitems": [
+            {
+                "label": "Cotizaciones",
+                "url": "lista_cotizaciones"
+            },
+            {
+                "label": "Facturas",
+                "url": "lista_facturas"
+            },
+            {
+                "label": "Guías de Remisión",
+                "url": "lista_guias_remision"
+            },
+            {
+                "label": "Boletas",
+                "url": "lista_boletas"
+            }
+        ]
+    },
+    {
+        "icon": "people-circle-outline",
+        "label": "Personas",
+        "subitems": [
+            {
+                "label": "Clientes Naturales",
+                "url": "lista_clientes_naturales"
+            },
+            {
+                "label": "Clientes Jurídicos",
+                "url": "lista_clientes_juridicos"
+            },
+            {
+                "label": "Trabajadores",
+                "url": "lista_trabajadores"
+            },
+            {
+                "label": "Transportistas",
+                "url": "lista_transportistas"
+            },
+            {
+                "label": "Proovedores",
+                "url": "lista_proovedores"
+            }
+        ]
+    },
+    {
+        "icon": "log-out",
+        "label": "Cerrar Sesión",
+        "url": "logout",
+        "subitems": []
+    }
+]

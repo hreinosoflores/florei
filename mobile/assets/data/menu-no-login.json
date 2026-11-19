@@ -1,0 +1,14 @@
+[
+    {
+        "icon": "cube",
+        "label": "Productos",
+        "url": "lista_productos",
+        "subitems": []
+    },
+    {
+        "icon": "log-in",
+        "label": "Iniciar Sesión",
+        "url": "login",
+        "subitems": []
+    }
+]
